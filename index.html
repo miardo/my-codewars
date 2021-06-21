@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>my CodeWars</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="./index.css">
+    </head>
+    <body class="root">
+        <header class="header">
+            <h1 class="header__name">my CodeWars</h1>
+            <p class="header__kata-count"></p>
+        </header>
+        <section class="elements"> 
+        </section>
+        <footer class="footer">
+            <button class="footer__show-more-button">показать ещё</button>
+            <p class="footer__copyright">&copy; 2021 MARAT KARIMOV</p>
+        </footer>
+        <template class="element_template">
+            <article class="elements elements_hidden">
+                <p class="elements__kata"></p>
+                <h3 class="elements__text">Task</h3>
+                <p class="elements__task"></p>
+                <h3 class="elements__text">my Code</h3>
+                <p class="elements__code"></p>
+            </article>
+        </template>
+        <script type="module" src="./index.js"></script>
+    </body>
+</html>
