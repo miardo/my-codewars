@@ -1,2 +1,5 @@
+@import url(../vendor/normalize.css);
+
 @import url(../blocks/elements/_hidden/elements_hidden.css);
+
 @import url(../blocks/footer/__show-more-button/_hidden/footer__show-more-button_hidden.css);
