@@ -205,5 +205,19 @@ export const initialElements = [
             }
             return array
         }`
+    },
+    {
+        kata: '7',
+        task: `Simple, given a string of words, return the length of the shortest word(s).
+
+        String will never be empty and you do not need to account for different data types.`,
+        code: `function findShort(s){
+            const arrS = s.split(' ')
+            let newArr = [];
+            for (let i = 0; i < arrS.length; i++) {
+                newArr.push(arrS[i].length)
+            }
+        return Math.min.apply(null, newArr)
+        }`
     }
 ];
