@@ -317,10 +317,10 @@ export const initialElements = [
                 return users
                 }
                 }`
-            },
-            {
-                kata: '7',
-                task: `I will give you an integer. Give me back a shape that is as long and wide as the integer. The integer will be a whole number between 1 and 50.
+    },
+    {
+        kata: '7',
+        task: `I will give you an integer. Give me back a shape that is as long and wide as the integer. The integer will be a whole number between 1 and 50.
 
                 Example
                 
@@ -329,7 +329,7 @@ export const initialElements = [
                 +++
                 +++
                 +++`,
-                code: `function generateShape(integer){
+        code: `function generateShape(integer){
                     let res = ""
                     for (let i = 0; i < integer * integer; i++) {
                     if (i % integer === 0 && i > 0) {
@@ -339,5 +339,12 @@ export const initialElements = [
                     }
                     return res
                     }`
-            }
+    },
+    {
+        kata: '7',
+        task: `Just a simple sorting usage. Create a function that returns the elements of the input-array / list sorted in lexicographical order.`,
+        code: `sortme = function( names ){
+            return names.sort()
+        }`
+    }
 ];
